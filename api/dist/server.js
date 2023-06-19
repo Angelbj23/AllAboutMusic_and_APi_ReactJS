@@ -85,11 +85,4 @@ app.get('/artists/pop', (req, res) => __awaiter(void 0, void 0, void 0, function
 }));
 app.listen(port, () => __awaiter(void 0, void 0, void 0, function* () {
     console.log(`Server API running on http://localhost:${port}`);
-    try {
-        // await mongoose.connect(`mongodb://127.0.0.1:27017/${process.env.DB}`);
-        //console.log('Connected to MongoDB');
-    }
-    catch (error) {
-        console.error('Failed to connect to MongoDB:', error);
-    }
 }));

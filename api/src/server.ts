@@ -1,5 +1,5 @@
 import express, { Request, Response } from 'express';
-import cors from 'cors';
+import cors from 'cors'
 import { alldata } from './data/all';
 import { rockdata } from './data/rock';
 import { metaldata } from './data/metal';
@@ -86,10 +86,4 @@ app.get('/artists/pop', async (req: Request, res: Response) => {
 
 app.listen(port, async () => {
   console.log(`Server API running on http://localhost:${port}`);
-  try {
-    // await mongoose.connect(`mongodb://127.0.0.1:27017/${process.env.DB}`);
-    //console.log('Connected to MongoDB');
-  } catch (error) {
-    console.error('Failed to connect to MongoDB:', error);
-  }
 });
