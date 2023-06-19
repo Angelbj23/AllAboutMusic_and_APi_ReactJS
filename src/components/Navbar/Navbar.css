@@ -1,0 +1,52 @@
+li a{
+    margin-left: 50px;
+    color: white;
+}
+
+.navbar{
+    background-color: midnightblue;
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: white;
+    background-color: rgb(217, 188, 21);
+}
+
+.navbar-brand{
+    color: white !important;
+}
+
+.navbar-brand:focus{
+    color: unset;
+}
+
+.navbar-toggler{
+    border: none !important;
+}
+
+.navbar-toggler:focus{
+    box-shadow: none !important;
+}
+
+.navbar-toggler:focus .navbar-toggler{
+    order: -1;
+}
+
+.navbar-toggler-icon{
+    background-image:url(../../assets/icon.png)!important
+}
+
+.btn-navbar{
+    color: black;
+    border-radius: 50%;
+}
+
+/* universale per sostituire le classi di bootstrap*/
+h1, h2, h3, h4, p{
+    font-size: unset;
+}

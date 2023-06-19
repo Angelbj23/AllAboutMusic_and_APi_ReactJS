@@ -1,0 +1,25 @@
+.menu {
+    background-color: #ffffff;
+    color: #000000;
+  }
+  
+.menu.dark {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.video-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.video-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

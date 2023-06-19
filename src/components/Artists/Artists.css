@@ -1,0 +1,24 @@
+.artist {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 15px;
+  }
+  
+.artist.dark {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.btn-styled {
+  border-radius: 5%;
+  background-color: midnightblue;
+  color: white;
+}
+
+.btn-styled:disabled{
+  background-color: rgb(5, 5, 52);
+}
+
+.alt{
+  margin-right: 5%;
+}

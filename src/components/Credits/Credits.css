@@ -1,0 +1,24 @@
+.credits {
+    background-color: #ffffff;
+    color: #000000;
+  }
+  
+.credits.dark {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.credits{
+    padding: 5%;
+    height: 100vh;
+}
+
+.credits h1{
+    font-size: unset;
+}
+
+@media screen and (max-width: 476px) {
+    .credits{
+        font-size: 16px !important;
+    }
+}
